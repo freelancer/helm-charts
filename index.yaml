@@ -25,7 +25,7 @@ entries:
     - https://hub.docker.com/r/allure/allure-uaa
     - https://hub.docker.com/r/allure/allure-report
     urls:
-    - https://freelancer.github.io/helm-charts/allure-ee-1.8.2.tgz
+    - https://github.com/freelancer/helm-charts/releases/download/allure-ee-1.8.2/allure-ee-1.8.2.tgz
     version: 1.8.2
   - apiVersion: v1
     appVersion: 3.141.1
