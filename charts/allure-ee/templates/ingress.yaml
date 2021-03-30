@@ -17,7 +17,7 @@ spec:
   - host: {{ .Values.ingress.host | quote }}
     http:
       paths:
-      - path: /
+      - path: /*
         backend:
           serviceName: {{ template "allure-ee.gateway.fullname" . }}
           servicePort: {{ .Values.gateway.service.port }}

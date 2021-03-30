@@ -1,8 +1,5 @@
 version: 3.118.0
 
-username: admin
-password: admin
-
 licenseKey:
 # imagePullSecret: allure-server
 
